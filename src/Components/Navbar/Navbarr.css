@@ -1,0 +1,24 @@
+.navbar-brand {
+  font-size: 1.94rem !important;
+  /* color: rgb(249,249,249) !important; */
+  padding-left: 24px !important;
+}
+
+.MAindiv111 {
+  color: white !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding-right: 40px !important;
+}
+@media (min-width: 1024px) {
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 40px !important;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(17, 39, 44) !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png);
+}
+

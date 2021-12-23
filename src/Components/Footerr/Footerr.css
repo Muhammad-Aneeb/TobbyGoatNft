@@ -1,0 +1,15 @@
+.MainDivFooterr{
+    background-color: rgb(9,21,24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 30px 0px;
+    flex-direction: column;
+}
+.Iconss{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+}

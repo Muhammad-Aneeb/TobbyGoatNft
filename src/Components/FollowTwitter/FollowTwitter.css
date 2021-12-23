@@ -1,0 +1,10 @@
+.FollowMainDiv{
+    /* width: 98vw;
+    height: 37vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17,39,44);
+    flex-direction: column;
+    padding : 20px 0px;
+}

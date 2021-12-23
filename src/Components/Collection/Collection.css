@@ -1,0 +1,37 @@
+.OrangeDiv{
+    width: 98vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GreenDiv{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BlueDiv{
+    width: 80%;
+    height: 95%;
+    background-color: white;
+}
+/* .Card{
+    height: 50%;
+    background-color: white;
+    
+} */
+.CollectionMain{
+    width: 100%;
+    height: 30%;
+}
+.CollectionDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: start;
+     
+}

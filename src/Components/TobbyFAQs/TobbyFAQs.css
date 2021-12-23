@@ -1,0 +1,20 @@
+.container-fluid{
+    width: 70% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+    border-radius: 20px !important;
+}
+.ant-collapse-content > .ant-collapse-content-box{
+    border-radius: 20px !important;
+}
+.ant-collapse > .ant-collapse-item{
+    border-bottom: 20px!important;
+}
+.ant-collapse-content > .ant-collapse-content-box{
+    border: 1px solid black;
+    border-radius: 20px !important;
+}
+.ant-collapse-item:last-child > .ant-collapse-content{
+    border-radius: 20px !important;
+}
