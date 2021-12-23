@@ -1,20 +1,39 @@
-.Mainclass {
-  height: 80vh;
-  width: 100vw;
-  background: rgb(249,249,249);
+.Mainclass111p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
-.AboutPart {
-  height: 60vh;
-  width: 29vw;
+.Mainclassdiv333p {
+  display: flex;
+  padding: 40px 0px;
+  width: 100%;
 }
-.ImagePart {
-  height: 60vh;
-  width: 28vw;
-}
-.Aboutdescription {
+
+.Aboutdescription111p {
   color: black;
+
+  justify-content: center;
 }
+.firstcolumnp {
+  display: flex;
+
+  flex-direction: column;
+}
+.imgsettingp {
+  position: absolute;
+  width: 24rem;
+  height: 24rem;
+}
+@media (max-width: 500px) {
+  .imgsettingp {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .imgsettingp {
+    position: absolute;
+    width: 20.5rem;
+    height: 20.5rem;
+  }
+}
+

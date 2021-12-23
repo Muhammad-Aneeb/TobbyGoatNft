@@ -1,21 +1,42 @@
 .Mainclass111 {
-  height: 70vh;
-  width: 100vw;
-  background: linear-gradient(170deg, rgb(17, 39, 44) 0%, rgb(58, 93, 100) 100%)
-    rgb(17, 39, 44);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
-.AboutPart {
-  height: 60vh;
-  width: 28vw;
+.Mainclassdiv333 {
+  background: linear-gradient(170deg, rgb(17, 39, 44) 0%, rgb(58, 93, 100) 100%)
+    rgb(17, 39, 44);
+  display: flex;
+  padding: 20px 0px;
+  width: 100%;
 }
-.ImagePart {
-  height: 60vh;
-  width: 28vw;
-}
+
 .Aboutdescription111 {
-  color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+.firstcolumn {
+  display: flex;
+
+  flex-direction: column;
+}
+.imgsetting {
+  position: absolute;
+  width: 24rem;
+  height: 24rem;
+}
+@media (max-width: 500px) {
+  .imgsetting {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .imgsetting {
+    position: absolute;
+    width: 20.5rem;
+    height: 20.5rem;
+  }
+}
+

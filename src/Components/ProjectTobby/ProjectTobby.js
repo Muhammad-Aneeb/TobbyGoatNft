@@ -1,17 +1,22 @@
 import React from "react";
 import "./ProjectTobby.css";
+import { Row, Col } from "antd";
 
 function ProjectTobby() {
   return (
     <div>
-      <div>
-        <div className="Mainclass">
-          <div className="AboutPart">
-            <div className="Abouttobby">
-              <h2 style={{ color: "black" }}>- Project </h2>
+
+      {" "}
+      <Row className="Mainclass111p">
+        
+         
+          <Col span={6} className="firstcolumnp">
+            
+            <div className="Abouttobbyp">
+            <h2 style={{color:"black"}}>- Project</h2>
             </div>
-            <div className="Aboutdescription">
-              <p>
+            <div className="Aboutdescription111p">
+            <p>
                 <b>"Toby The Goat"</b>, or TTG for short, is an NFT collection
                 that was born out of the passion of four friends for the Crypto
                 ecosystem and the NFTs universe. Believing in the potential of
@@ -36,18 +41,19 @@ function ProjectTobby() {
               </p>
               <p> <b>
                 Join the ride and help us present the metaverse to the universe.</b>
-              </p>
-            </div>
-          </div>
-          <div className="ImagePart">
-            <img
-              style={{ width: "31rem", height: "30.55rem" }}
-              src="https://tobythegoat.io/images/project_goat.png"
-              alt="About Image"
-            />
-          </div>
+              </p>            </div>
+          
+          
+          </Col>
+          <Col span={6}>
+          <div className="ImagePartp">
+            <img className="imgsettingp" src="https://tobythegoat.io/images/project_goat.png" alt = "About Image" />
         </div>
-      </div>
+          
+          </Col>
+      
+
+      </Row>
     </div>
   );
 }
